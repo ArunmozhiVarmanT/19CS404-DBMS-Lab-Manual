@@ -1,5 +1,9 @@
 # Experiment 3: DML Commands
 
+## NAME : ARUNMOZHI VARMAN T
+## REG NO : 212223230022
+
+
 ## AIM
 To study and implement DML (Data Manipulation Language) commands.
 
@@ -47,123 +51,145 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+<img width="893" height="228" alt="image" src="https://github.com/user-attachments/assets/6e586657-af20-4435-b27b-9a2c704ea91e" />
 
-```sql
--- Paste your SQL code below for Question 1
+
+```
+UPDATE products
+SET product_name = 'Grapefruit'
+WHERE product_id = 4;
+
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1262" height="272" alt="image" src="https://github.com/user-attachments/assets/216088ac-2d06-45f1-97b7-af815e675d62" />
 
 **Question 2**
 ---
--- Paste Question 2 here
+<img width="727" height="116" alt="image" src="https://github.com/user-attachments/assets/d6f48afc-e613-481d-ba0f-2c6793e9809c" />
 
-```sql
--- Paste your SQL code below for Question 2
+```
+UPDATE Customer
+SET grade = 5
+WHERE city = 'Chennai';
+
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1241" height="506" alt="image" src="https://github.com/user-attachments/assets/54183330-4e06-4b9f-8722-53762873a352" />
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="841" height="322" alt="image" src="https://github.com/user-attachments/assets/3e3640a7-ec3f-4cc2-971f-d709cb81afb4" />
 
-```sql
--- Paste your SQL code below for Question 3
+```
+UPDATE Products
+SET quantity = quantity * 1.10;
+
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="1283" height="630" alt="image" src="https://github.com/user-attachments/assets/e42914db-ffcb-4cbb-a8de-6486d908cec5" />
 
 **Question 4**
 ---
--- Paste Question 4 here
+<img width="945" height="279" alt="image" src="https://github.com/user-attachments/assets/c6451114-f24e-42f3-97bb-dec2372e4378" />
 
-```sql
--- Paste your SQL code below for Question 4
+```
+UPDATE suppliers
+SET supplier_name = 'A1 Suppliers'
+WHERE supplier_id = 8;
+
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="1283" height="453" alt="image" src="https://github.com/user-attachments/assets/84c68d00-6d3f-4c29-b82e-fbc1dbaafa3b" />
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="968" height="593" alt="image" src="https://github.com/user-attachments/assets/12e70ca1-b3bf-48b7-8a92-2a05bc7f43aa" />
 
-```sql
--- Paste your SQL code below for Question 5
+```
+UPDATE employees
+SET email = 'Unavailable';
+
 ```
 
 **Output:**
 
-![Output5](output.png)
+<img width="1248" height="463" alt="image" src="https://github.com/user-attachments/assets/f5dc325a-6d49-4f71-bc9b-0928e600270c" />
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="778" height="534" alt="image" src="https://github.com/user-attachments/assets/030e5254-7fcc-43e3-8e1b-17d3bf5d81d5" />
 
-```sql
--- Paste your SQL code below for Question 6
+```
+DELETE FROM Doctors
+WHERE last_name IS NULL;
 ```
 
 **Output:**
+<img width="1175" height="711" alt="image" src="https://github.com/user-attachments/assets/7f4c666a-0589-4d93-a216-2a7ff076190f" />
 
-![Output6](output.png)
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="876" height="169" alt="image" src="https://github.com/user-attachments/assets/c492b9e7-1c6c-4e8b-a882-7c9a5fe08642" />
 
-```sql
--- Paste your SQL code below for Question 7
+```
+DELETE FROM Doctors
+WHERE specialization = 'Cardiology';
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="1179" height="410" alt="image" src="https://github.com/user-attachments/assets/e3e950f4-9ddf-4da7-9f8d-f98525c73f9b" />
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="813" height="593" alt="image" src="https://github.com/user-attachments/assets/b149bdab-c381-497d-82b7-e35e285044b7" />
 
-```sql
--- Paste your SQL code below for Question 8
+```
+DELETE FROM Surgeries
+WHERE surgery_id = 3
+   OR surgeon_id = 4;
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="1345" height="922" alt="image" src="https://github.com/user-attachments/assets/b5f5de08-4245-45f1-9b64-b509174b6717" />
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1268" height="453" alt="image" src="https://github.com/user-attachments/assets/555ba60e-728d-423e-89fd-f57421c416b7" />
 
-```sql
--- Paste your SQL code below for Question 9
+```
+DELETE FROM Customer
+WHERE grade = 3
+  AND cust_name LIKE '%BBB%'
+  AND payment_amt > 2000;
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="1239" height="502" alt="image" src="https://github.com/user-attachments/assets/030c0bf0-e33d-4e2f-93af-0e70f0bdcc39" />
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="729" height="488" alt="image" src="https://github.com/user-attachments/assets/ef20c903-eb54-451f-8078-afd641f93678" />
 
-```sql
--- Paste your SQL code below for Question 10
+```
+DELETE FROM Doctors
+WHERE specialization IS NULL;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="1220" height="922" alt="image" src="https://github.com/user-attachments/assets/6d2b31a0-6843-45aa-a134-cbb477c1cbe5" />
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
